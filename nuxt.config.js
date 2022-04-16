@@ -6,7 +6,7 @@ export default {
   head: {
     title: 'appje-eitje',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'nl'
     },
     meta: [
       { charset: 'utf-8' },
