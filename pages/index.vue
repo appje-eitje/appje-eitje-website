@@ -3,10 +3,12 @@
     <div class="content">
       <h1>Appje Eitje</h1>
       <p>
-        Wij verzorgen kwalitatieve, toegankelijke front-end toepassingen: software, applicaties en websites.
+        {{ $t('what-we-do') }}
       </p>
-      <p>Naast het ontwikkelen van eigen software, staan wij ook klaar om uw idee tot een succes te maken.</p>
-      <a href="mailto:josee.wouters@ikbenmelle-en-co.nl">Neem direct contact op</a>
+      <p>
+        {{ $t('your-idea') }}
+      </p>
+      <a href="mailto:josee.wouters@ikbenmelle-en-co.nl">{{ $t('contact') }}</a>
     </div>
     <PersonWithApp/>
   </main>

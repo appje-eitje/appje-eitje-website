@@ -40,9 +40,31 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    [
+      '@nuxtjs/i18n',
+      {
+        locales: ['en', 'nl'],
+        defaultLocale: 'nl',
+        vueI18n: {
+          fallbackLocale: 'nl',
+          messages: {
+            nl: {
+              contact: 'Neem direct contact op',
+              'what-we-do': 'Wij verzorgen kwalitatieve, toegankelijke front-end toepassingen: software, applicaties en websites.',
+              'your-idea': 'Naast het ontwikkelen van eigen software, staan wij ook klaar om uw idee tot een succes te maken.'
+            },
+            en: {
+              contact: 'Contact us now',
+              'what-we-do': 'We develop high quality, accessible front-end applications, software and websites.',
+              'your-idea': 'Besides developing our own software applications, we are also available to make your idea a success.'
+            }
+          }
+        }
+      }
+    ]
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
 }
