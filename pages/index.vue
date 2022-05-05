@@ -10,7 +10,7 @@
       </p>
       <a href="mailto:josee.wouters@ikbenmelle-en-co.nl">{{ $t('contact') }}</a>
     </div>
-    <PersonWithApp/>
+    <PersonWithApp />
   </main>
 </template>
 
@@ -33,12 +33,17 @@ main {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 @media (min-width: 64em) {
   main {
     flex-wrap: nowrap;
   }
+}
+
+.content {
+  max-width: 55ch;
 }
 
 h1 {
