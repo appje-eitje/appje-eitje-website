@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Appje Eitje',
+    title: 'Appje Eitje - High quality applications',
     htmlAttrs: {
       lang: 'nl'
     },
@@ -13,7 +13,11 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'We develop high quality, accessible front-end applications, software and websites.' },
       { name: 'format-detection', content: 'telephone=no' },
-      { property: 'og:image', content: 'https://appje-eitje.nl/appje-eitje.jpg' }
+      { property: 'og:image', content: 'https://appje-eitje.nl/appje-eitje.jpg' },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:title', content: 'Appje Eitje - High quality applications' },
+      { name: 'twitter:description', content: 'We develop high quality, accessible front-end applications, software and websites.' },
+      { name: 'twitter:image', content: 'https://appje-eitje.nl/appje-eitje.jpg' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
