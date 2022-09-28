@@ -1,0 +1,74 @@
+.label-availability {
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  font-size: var(--font-size-small);
+
+  &.___ok {
+    background: var(--color-brand-green-300);
+  }
+
+  &.___warning {
+    background: var(--color-brand-yellow-300);
+  }
+}
+
+.hours-input {
+  display: flex;
+  margin: 0.8rem 0 1.6rem 0;
+}
+
+.hours-input__input {
+  width: 10rem;
+  margin: 0 2rem 0 0;
+}
+
+.hours-input__meta {
+  margin-top: 0;
+  flex: 1 1;
+}
+
+.hours-meta {
+  margin: 0.2rem 0 0 0;
+}
+
+.hours-meta__availability {
+  padding-bottom: 0.4rem;
+  margin-right: 0.4rem;
+}
+
+.hours-meta__price-range {
+  font-size: var(--font-size-small);
+}
+
+.hours-meta__price {
+  margin-top: 0.5rem;
+  display: block;
+  font-size: var(--font-size-base);
+}
+
+.m-input {
+
+}
+
+.m-input__label {
+  display: block;
+  margin: 0 0 0.3rem 0;
+  font-size: var(--font-size-small);
+  color: var(--color-grey-600);
+}
+
+.m-input__input {
+  display: block;
+  width: 100%;
+  padding: 0.4rem 1rem;
+  font-size: 1.8rem;
+  font-family: var(--font-family);
+
+  &.___large {
+    height: 4.8rem;
+  }
+
+  &.___number {
+    text-align: right;
+  }
+}

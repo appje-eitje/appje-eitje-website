@@ -1,0 +1,117 @@
+@import "./variables.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  font-family: 'Readex Pro', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@import "./general-utils";
+@import "./general-m-page";
+
+@import "./components/btn";
+@import "./components/card-work";
+
+@import "./atoms/label-availability";
+@import "./todo";
+
+.heading-page {
+  font-size: var(--font-size-larger);
+  font-weight: 200;
+}
+
+.heading-section {
+  font-size: var(--font-size-large);
+  font-weight: 200;
+}
+
+.page-info-layout {
+  @media (min-width: 750px) {
+    display: grid;
+    grid-template-columns: 262px 1fr;
+  }
+}
+
+.page-info-layout__side {
+
+}
+
+.page-info-layout__content {
+
+}
+
+.page-center {
+  margin: 0 auto;
+  max-width: var(--page-max-width);
+}
+
+.page-center.___padding {
+  padding: var(--page-max-width--padding);
+  max-width: calc(var(--page-max-width) + var(--page-max-width--padding));
+}
+
+.page-center.___padding-width {
+  padding: 0 var(--page-max-width--padding);
+  max-width: calc(var(--page-max-width) + var(--page-max-width--padding));
+}
+
+/* Label */
+
+.label-ae {
+  display: inline-flex;
+  font-size: var(--font-size-small);
+  text-decoration: none;
+  align-items: center;
+}
+
+.label-ae__logo {
+  margin-right: 0.3rem;
+}
+
+.label-ae__name {
+  margin: 0 0.3rem 0 0;
+  color: #000;
+  font-size: var(--font-size-small);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.label-ae:hover .label-ea__logo {
+  text-decoration: underline;
+}
+
+.label-ae:hover .label-ea__name {
+  text-decoration: underline;
+}
+
+.label-ea__service {
+  display: inline-block;
+  color: var(--color-grey-600);
+  font-size: var(--font-size-small);
+}
+
+.label-ea-slogan {
+  display: inline-block;
+  color: var(--color-grey-600);
+  font-size: var(--font-size-smaller);
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  word-spacing: 0.1em;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}

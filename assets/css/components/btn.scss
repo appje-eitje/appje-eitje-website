@@ -1,0 +1,37 @@
+
+.btn {
+  position: relative;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  background: var(--color-brand-500);
+  color: #fff;
+  padding: 1rem 1.6rem;
+  border-radius: 0.4rem;
+
+  &:hover,
+  &:focus {
+    background: var(--color-brand-600);
+  }
+}
+
+.btn__tooltip {
+  opacity: 0;
+  position: absolute;
+  bottom: calc(100% + 0.4rem);
+  left: -0.6rem;
+  padding: 0.4rem 0.7rem;
+  background: #000;
+  color: #fff;
+  visibility: hidden;
+  border-radius: 0.4rem;
+  transition: 162ms ease-out;
+
+  &.___show {
+    opacity: 1;
+    visibility: visible;
+    transition: 62ms ease-in;
+  }
+}

@@ -1,0 +1,59 @@
+$responsive-mobile-small: 360px;
+$responsive-mobile-landscape: 600px;
+$responsive-tablet-portrait: 700px;
+$responsive-tablet-landscape: 960px;
+$responsive-desktop: 1180px;
+$responsive-desktop-hd: 1600px;
+
+:root {
+  font-size: 0.625em;
+
+  --color-grey-600: #525252;
+  --color-grey-500: #b16363;
+  --color-grey-150: #ececec;
+  --color-grey-100: #F4F4F4;
+  --color-brand-600: #2059e0;
+  --color-brand-500: #3874FF;
+  --color-brand-100: #eff4ff;
+  --color-brand-green-300: #DDFFB2;
+  --color-brand-yellow-300: #FFF6A3;
+
+  --font-family: 'Open Sans', sans-serif;
+
+  --font-size-larger: 2.4rem;
+  --font-size-large: 2.2rem;
+  --font-size-base-lead: 1.6rem;
+  --font-size-base: 1.4rem;
+  --font-size-smaller: 1.2rem;
+  --font-size-small: 1.3rem;
+  @media (min-width: $responsive-tablet-portrait) {
+    --font-size-larger: 4.2rem;
+    --font-size-large: 3.8rem;
+    --font-size-base: 1.6rem;
+    --font-size-base-lead: 1.8rem;
+  }
+  @media (min-width: $responsive-tablet-landscape) {
+    --font-size-larger: 4.6rem;
+    --font-size-large: 4.2rem;
+    --font-size-base-lead: 2rem;
+    --page-section-margin-small: 2.6rem;
+  }
+
+  --page-max-width: 74rem;
+  --page-max-width--padding: 2rem;
+  @media (min-width: $responsive-tablet-portrait) {
+    --page-max-width--padding: 2.6rem;
+  }
+  @media (min-width: $responsive-tablet-landscape) {
+    --page-max-width--padding: 3.8rem;
+  }
+
+  --page-section-margin: 2rem;
+  --page-section-margin-small: 1.4rem;
+  @media (min-width: $responsive-tablet-portrait) {
+    --page-section-margin-small: 2rem;
+  }
+  @media (min-width: $responsive-tablet-landscape) {
+    --page-section-margin-small: 2.6rem;
+  }
+}

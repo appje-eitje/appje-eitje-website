@@ -1,73 +1,41 @@
 <template>
-  <main>
-    <div class="content">
-      <h1>Appje Eitje</h1>
-      <p>
-        {{ $t('what-we-do') }}
-      </p>
-      <p>
-        {{ $t('your-idea') }}
-      </p>
-      <a href="mailto:josee.wouters@ikbenmelle-en-co.nl">{{ $t('contact') }}</a>
+  <div name="home">
+    <div class="page-center ___padding-width">
+      <!-- <SiteHero /> -->
+      <PageContent>
+        <div class="page-content__spacer-large"></div>
+        <div class="page-content__lead">
+          <p>
+            Wij vullen jouw team aan om de user experience excellent te maken.
+          </p>
+          <p>
+            Kosteneffectief. Betrokken. Het ei van Columbus.*
+          </p>
+          <p>
+            Kun je dit gebruiken? <NuxtLink to="/tarieven">Bekijk onze tarieven</NuxtLink>
+          </p>
+        </div>
+        <div class="page-content__spacer"></div>
+      </PageContent>
+      <div>
+        <h2 class="heading-page">
+          Onze expertises
+        </h2>
+        <h3>
+          Front-end
+        </h3>
+        <p>
+          Design tokens
+        </p>
+      </div>
     </div>
-    <PersonWithApp />
-  </main>
+  </div>
 </template>
 
-<script>
-import PersonWithApp from 'assets/PersonWithApp'
-
-export default {
-  name: 'IndexPage',
-  components: { PersonWithApp }
-}
+<script setup lang="ts">
+definePageMeta({
+  // description: 'Maak zelf een persoonlijke herinnering bij de uitvaart van uw dierbare',
+  // TODO: image: 'http://placekitten.com/200/300',
+  // TODO: imageAlt: 'Placekitten',
+})
 </script>
-
-<style>
-main {
-  background-color: white;
-  min-height: calc(100vh - 6rem);
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  padding: 3rem;
-  font-size: 1.4rem;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
-@media (min-width: 64em) {
-  main {
-    flex-wrap: nowrap;
-  }
-}
-
-.content {
-  max-width: 55ch;
-}
-
-h1 {
-  font-size: 3.5rem;
-  margin-bottom: .5em;
-}
-
-svg {
-  max-width: 100%;
-  height: 100%;
-}
-
-a {
-  display: inline-block;
-  background-color: var(--color-cta);
-  color: #fff;
-  text-decoration: none;
-  padding: 1em;
-  margin: 1.5em 0;
-  transition: all .25s ease-in-out;
-  border-radius: 0;
-}
-
-a:hover {
-  border-radius: 35px;
-}
-</style>

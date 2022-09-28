@@ -1,0 +1,18 @@
+
+.m-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.m-page__header {
+  flex: 0 0 auto;
+}
+
+.m-page__main {
+  flex: 1 1;
+}
+
+.m-page__footer {
+  flex: 0 0 auto;
+}
