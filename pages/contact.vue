@@ -14,15 +14,16 @@
             Kun je dit gebruiken? <NuxtLink to="/tarieven">Bekijk onze tarieven</NuxtLink>
           </p> -->
         </div>
+        <div class="page-content__spacer"></div>
         <h2 class="heading-page">
           Contact
         </h2>
         <h3>E-mail</h3>
       </PageContent>
-      <p class="m-contact-item">
+      <p class="contact-item">
         <button
           type="button"
-          class="m-contact-item__btn btn"
+          class="contact-item__btn btn"
           @click="copy('sales@appje-eitje.nl')"
         >
           Kopieer
@@ -36,18 +37,18 @@
           </span>
         </button>
         <a
-          class="m-contact-item__link"
+          class="contact-item__link"
           href="mailto:sales@appje-eitje.nl"
         >
-          <span class="m-contact-item__link__content">sales@appje-eitje.nl</span>
-          <span class="m-contact-item__link__meta">Beste Appje Eitje, kun je...</span>
+          <span class="contact-item__link__content">sales@appje-eitje.nl</span>
+          <span class="contact-item__link__meta">Beste Appje Eitje, kun je...</span>
         </a>
       </p>
       <div class="page-content__spacer-large"></div>
-      <!-- <p class="m-contact-item">
+      <!-- <p class="contact-item">
         <button
           type="button"
-          class="m-contact-item__btn btn"
+          class="contact-item__btn btn"
           :class="{ ___copied: copiedStr === '+31641017611' }"
           @click="copy('+31641017611')"
         >
@@ -62,11 +63,11 @@
           </span>
         </button>
         <a
-          class="m-contact-item__link"
+          class="contact-item__link"
           href="tel:+31641017611"
         >
-          <span class="m-contact-item__link__content">+31 6 41 01 76 11</span>
-          <span class="m-contact-item__link__meta">Binnen kantoortijden</span>
+          <span class="contact-item__link__content">+31 6 41 01 76 11</span>
+          <span class="contact-item__link__meta">Binnen kantoortijden</span>
         </a>
       </p> -->
       <PageContent>

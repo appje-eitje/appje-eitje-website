@@ -1,24 +1,24 @@
-.m-contact-item {
+.contact-item {
   display: flex;
 }
 
-.m-contact-item__btn {
+.contact-item__btn {
   margin-top: 0.3rem;
   margin-bottom: 0.3rem;
 }
 
-.m-contact-item__link {
+.contact-item__link {
   margin: 0 0 0 1rem;
   text-decoration: none;
   font-size: var(--font-size-base);
 }
 
-.m-contact-item__link__content {
+.contact-item__link__content {
   color: var(--color-brand-500);
   text-decoration: underline;
 }
 
-.m-contact-item__link__meta {
+.contact-item__link__meta {
   margin-top: 0.2rem;
   display: block;
   color: var(--color-grey-500);
