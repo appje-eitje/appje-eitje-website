@@ -2,7 +2,7 @@
 index: 3
 name: Peter Doolaard
 email: peter@appje-eitje.nl
-image: /assets/team/pd.png
+image: /images/team/pd.png
 nameLabel:
   nl:
 job:

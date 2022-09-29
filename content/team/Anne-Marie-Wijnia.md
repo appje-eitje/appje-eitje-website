@@ -2,7 +2,7 @@
 index: 4
 name: Anne-Marie Wijnia
 email: anne-marie@appje-eitje.nl
-image: /assets/team/aw.png
+image: /images/team/aw.png
 nameLabel:
   nl:
 job:
