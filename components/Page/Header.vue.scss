@@ -2,7 +2,9 @@
 
 .page-header {
   padding-top: var(--page-section-margin-small);
+  padding-right: var(--page-max-width--padding);
   padding-bottom: calc(var(--page-section-margin-small) - 0.3rem);
+  padding-left: var(--page-max-width--padding);
 
   @media (min-width: $responsive-tablet-portrait) {
     display: flex;
@@ -88,6 +90,7 @@
   background: var(--background);
   text-decoration: none;
   text-transform: uppercase;
+  border-radius: 3px;
 
   @media (max-width: $responsive-tablet-portrait) {
     // --background: var(--color-brand-100);
@@ -96,26 +99,30 @@
     border-radius: 0.4rem;
     padding: 0.6rem 1rem;
 
-    &:hover,
+    &:hover {
+      --background: #eee;
+    }
+
     &:focus,
-    &:not(.___highlight-exact-active).nuxt-link-active,
-    &.___highlight-exact-active.nuxt-link-exact-active {
-      --background: var(--color-brand-500);
-      --color: #fff;
+    &:not(.___highlight-exact-active).router-link-active,
+    &.___highlight-exact-active.router-link-exact-active {
+      --background: #eee;
     }
   }
 
   @media (min-width: $responsive-tablet-portrait) {
     // --color: var(--color-brand-500);
     --background: #fff;
-    padding: 0.3rem 0.8rem;
+    padding: 0.6rem 1rem;
 
-    &:hover,
+    &:hover {
+      --background: rgb(250, 250, 250);
+    }
+
     &:focus,
-    &:not(.___highlight-exact-active).nuxt-link-active,
-    &.___highlight-exact-active.nuxt-link-exact-active {
-      --color: #000;
-      text-decoration: underline;
+    &:not(.___highlight-exact-active).router-link-active,
+    &.___highlight-exact-active.router-link-exact-active {
+      --background: #eee;
     }
   }
 }

@@ -10,6 +10,7 @@ html {
   scroll-behavior: smooth;
   overflow-y: scroll;
   font-family: 'Readex Pro', sans-serif;
+  cursor: default;
 }
 
 body {
@@ -69,10 +70,29 @@ body {
 /* Label */
 
 .label-ae {
+  --background: #fff;
+
   display: inline-flex;
   font-size: var(--font-size-small);
   text-decoration: none;
   align-items: center;
+  border-radius: 4px;
+  background: var(--background);
+  transition: 262ms ease-out;
+}
+
+a.label-ae {
+  padding: 0.6rem 1rem;
+
+  &:hover {
+    --background: rgb(250, 250, 250);
+  }
+
+  &:focus,
+  &:not(.___highlight-exact-active).router-link-active,
+  &.___highlight-exact-active.router-link-exact-active {
+    --background: #eee;
+  }
 }
 
 .label-ae__logo {

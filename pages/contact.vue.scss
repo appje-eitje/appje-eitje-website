@@ -1,37 +1,5 @@
 @import "~/assets/css/variables.scss";
 
-.layout-contact {
-  @media (min-width: $responsive-tablet-portrait) {
-    display: flex;
-  }
-}
-
-.layout-contact__content {
-  flex: 1 0 auto;
-  max-width: 62rem;
-}
-
-
-.layout-contact__side {
-  order: 2;
-  @media (min-width: $responsive-tablet-portrait) {
-    min-width: 300px;
-    margin-top: -2rem;
-    margin-left: 3rem;
-    max-width: 40rem;
-  }
-}
-
-.contact-personen--persoon {
-  font-weight: 600;
-}
-
-
-.contact-spoed--inner {
-  background: #EAF9FF;
-  padding-inline: 3rem;
-  padding-block: 2rem;
-}
 
 .contact-links {
   align-self: end;

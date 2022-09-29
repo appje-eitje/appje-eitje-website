@@ -1,5 +1,5 @@
 <template>
-  <div class="page-center ___padding-width">
+  <div>
     <header class="page-header">
       <!-- TODO: Only show for screen-readers -->
       <div class="page-header__brand">
