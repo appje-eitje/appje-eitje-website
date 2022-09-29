@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="page-center ___padding-width">
+    <div class="page-center">
       <PageContent>
         <div class="page-content__spacer-large"></div>
         <div class="page-content__lead">
@@ -13,8 +13,8 @@
             <small>Als het géén eitje is – Moeten eerst todo uitwerken en inplannen</small>
           </p>
           <p>
-            Beschikbaar per november <NuxtLink to="/contact">Neem contact op</NuxtLink><br>
-            <small>Tarieven ter indicatie. Informeer naar voorwaarden en mogelijkheden voor korting</small>
+            <span class="site-label-status">Beschikbaar per november</span> <NuxtLink to="/contact">Neem contact op</NuxtLink><br>
+            <small class="label-info">Tarieven ter indicatie. Informeer naar voorwaarden en mogelijkheden voor korting</small>
           </p>
         </div>
         <div class="page-content__spacer-smaller"></div>
@@ -61,7 +61,7 @@
           Zo hoef je nooit meer te bellen drie dagen voor een deadline, maar het mag natuurlijk wel ;-)
         </p>
         <h3>
-          We gaan pas aan de slag als alles duidelijk is
+          Aan de slag als alles duidelijk is
         </h3>
         <p>
           Als opdrachtgever helpen we je om het ontwikkelwerk (backlog) in zinvolle delen op te splitsen,
@@ -73,10 +73,14 @@
           Beste kandidaat
         </h3>
         <p>
-          Binnen ons team kijken we per item op de backlog wat het beste past, zo werken we altijd zo efficiënt als mogelijk.
+          We doen geen detachering.
+          Je krijgt altijd de beste kandidaat.
+          Binnen ons team kijken we per item op de backlog wat het beste past.
+          Zo werken we altijd zo efficiënt als mogelijk.
         </p>
+        <div class="page-content__spacer-smaller"></div>
         <p>
-          <NuxtLink to="/tarieven">Maak kennis met het team</NuxtLink>
+          <NuxtLink to="/over">Maak kennis met het team</NuxtLink>
         </p>
         <div class="page-content__spacer-large"></div>
       </PageContent>
@@ -85,11 +89,7 @@
 </template>
 
 <script setup lang="ts">
-useHead({ title: 'Tarief' })
-
 definePageMeta({
-  // description: 'Maak zelf een persoonlijke herinnering bij de uitvaart van uw dierbare',
-  // TODO: image: 'http://placekitten.com/200/300',
-  // TODO: imageAlt: 'Placekitten',
+  title: 'Tarief'
 })
 </script>

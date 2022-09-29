@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="page-center ___padding-width">
+    <div class="page-center">
       <!-- <SiteHero /> -->
       <PageContent>
         <div class="page-content__spacer-large"></div>
@@ -23,7 +23,7 @@
           Full stack
         </h3>
         <p>
-          Bereik maximale synergy met front-end en back-end integratie.
+          Synergy door front-end en back-end integratie.
         </p>
         <h3>
           Front-end
@@ -71,6 +71,7 @@
         <h3>
           UX / UI
         </h3>
+        <div class="page-content__spacer-smaller"></div>
         <p>
           <NuxtLink to="/dit-doen-we">Dit doen we met onze expertises</NuxtLink>
         </p>

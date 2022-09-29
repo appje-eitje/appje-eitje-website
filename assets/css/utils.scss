@@ -8,9 +8,3 @@
   padding: 0;
   position: absolute;
 }
-
-.util-hide-mobile-small {
-  @media (max-width: $responsive-mobile-small) {
-    display: none;
-  }
-}

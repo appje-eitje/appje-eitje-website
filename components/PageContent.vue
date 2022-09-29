@@ -32,8 +32,20 @@
     margin-top: 1rem;
   }
 
+  h3 {
+    margin-top: 2rem;
+  }
+
+  h4 {
+    margin-top: 1.4rem;
+  }
+
   a {
     color: currentColor;
+  }
+
+  .label-info {
+    color: var(--color-grey-500);
   }
 }
 </style>

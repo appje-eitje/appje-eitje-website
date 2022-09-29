@@ -2,9 +2,9 @@
 
 .page-header {
   padding-top: var(--page-section-margin-small);
-  padding-right: var(--page-max-width--padding);
+  padding-right: calc(var(--page-max-width--padding) - 1rem);
   padding-bottom: calc(var(--page-section-margin-small) - 0.3rem);
-  padding-left: var(--page-max-width--padding);
+  padding-left: calc(var(--page-max-width--padding) - 1rem);
 
   @media (min-width: $responsive-tablet-portrait) {
     display: flex;
@@ -139,4 +139,73 @@
   font-size: var(--font-size-smaller);
   text-align: center;
   transition: 262ms ease-out;
+}
+
+/* Logo */
+
+.label-ae {
+  --background: #fff;
+
+  display: inline-flex;
+  font-size: var(--font-size-small);
+  text-decoration: none;
+  align-items: center;
+  border-radius: 4px;
+  background: var(--background);
+  transition: 262ms ease-out;
+}
+
+a.label-ae {
+  padding: 0.6rem 1rem;
+
+  &:hover {
+    --background: rgb(250, 250, 250);
+  }
+
+  &:focus,
+  &:not(.___highlight-exact-active).router-link-active,
+  &.___highlight-exact-active.router-link-exact-active {
+    --background: #eee;
+  }
+}
+
+.label-ae__logo {
+  margin-right: 0.3rem;
+}
+
+.label-ae__name {
+  margin: 0 0.3rem 0 0;
+  color: #000;
+  font-size: var(--font-size-small);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.label-ae:hover .label-ea__logo {
+  text-decoration: underline;
+}
+
+.label-ae:hover .label-ea__name {
+  text-decoration: underline;
+}
+
+.label-ea__service {
+  display: inline-block;
+  color: var(--color-grey-600);
+  font-size: var(--font-size-small);
+}
+
+.label-ea-slogan {
+  display: inline-block;
+  color: var(--color-grey-600);
+  font-size: var(--font-size-smaller);
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  word-spacing: 0.1em;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
 }

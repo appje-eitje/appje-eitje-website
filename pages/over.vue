@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="page-center ___padding-width">
+    <div class="page-center">
       <PageContent>
         <div class="page-content__spacer-large"></div>
       </PageContent>
@@ -9,22 +9,22 @@
         <li v-for="person in data" :key="person._path" class="team__person">
           <!-- <ContentRenderer :value="lol" /> -->
 
-          <div class="m-card-person">
-            <span class="m-card-person__image">
-              <span class="m-card-person__image__overflow">
+          <div class="card-person">
+            <span class="card-person__image">
+              <span class="card-person__image__overflow">
                 <img :src="person.image" alt="">
               </span>
             </span>
-            <span class="m-card-person__name">
+            <span class="card-person__name">
               {{ person.name }}
-              <!-- <span v-if="person.nameLabel" class="m-card-person__name__label">
+              <!-- <span v-if="person.nameLabel" class="card-person__name__label">
                 {{ person.nameLabel }}
               </span> -->
             </span>
-            <span class="m-card-person__job">
+            <span class="card-person__job">
               {{ person.job['nl'] }}
             </span>
-            <span v-if="person.quote['nl']" class="m-card-person__quote">
+            <span v-if="person.quote['nl']" class="card-person__quote">
               “{{ person.quote['nl'] }}”
             </span>
           </div>
@@ -39,7 +39,17 @@
           <p>
             Na verschillende teams te hebben opgezet en geleid,
             ontstond bij Melle de wens om een eigen team te kunnen (op)leiden.
-            Het idee voor Ik ben Melle <strong>& Co.</strong> was ontstaan.
+            Het idee voor Ik ben Melle <strong>& Co.</strong> was ontstaan,
+            wat later zo overgaan in Appje Eitje.
+            Niet alles draait meer om Melle, en wat een opluchting dat wel niet is.
+          </p>
+          <p>
+            Vandaag de dag werken we met verscheidene teams van onze klanten
+              en zijn we samenwerkingen en projecten gestart.
+            Een nieuw tijdperk is aangebroken.
+          </p>
+          <p>
+            <NuxtLink to="/dit-doen-we">Bekijk wat we doen om er meer van te leren</NuxtLink>
           </p>
         </div>
         <div class="page-content__spacer"></div>
@@ -85,19 +95,19 @@ const { data, refresh } = await useAsyncData('homepage', () => {
   }
 }
 
-.m-card-person {
+.card-person {
   margin-bottom: 0.4rem;
   padding: 16px 0 0 0;
 }
 
-.m-card-person__image {
+.card-person__image {
   display: block;
   background: #a4e4ae;
   border-radius: 4px;
   padding: 1px 0 0 0;
 }
 
-.m-card-person__image__overflow {
+.card-person__image__overflow {
   display: block;
   // margin: 10px 10px 0 0;
   margin-top: -16px;
@@ -108,23 +118,25 @@ const { data, refresh } = await useAsyncData('homepage', () => {
     display: block;
     width: 100%;
     height: auto;
+    max-width: 231px;
+    margin: 0 auto;
   }
 }
 
-.m-card-person__image img {
+.card-person__image img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.m-card-person__name {
+.card-person__name {
   margin-top: 0.4rem;
   display: block;
   font-weight: 600;
   font-size: var(--font-size-small);
 }
 
-.m-card-person__name__label {
+.card-person__name__label {
   border-radius: 3px;
   padding: 0.2rem 0.4rem;
   display: inline-block;
@@ -133,14 +145,14 @@ const { data, refresh } = await useAsyncData('homepage', () => {
   font-weight: 400;
 }
 
-.m-card-person__job {
+.card-person__job {
   margin-top: 0.2rem;
   display: block;
   color: var(--color-grey-500);
   font-size: var(--font-size-small);
 }
 
-.m-card-person__quote {
+.card-person__quote {
   margin-top: 0.4rem;
   display: block;
   font-size: var(--font-size-small);

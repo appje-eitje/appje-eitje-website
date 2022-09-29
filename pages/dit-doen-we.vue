@@ -1,11 +1,14 @@
 <template>
   <div>
-    <div class="page-center ___padding-width">
+    <div class="page-center">
       <PageContent>
         <div class="page-content__spacer-large"></div>
         <div class="page-content__lead">
           <p>
             Uitgelicht
+          </p>
+          <p>
+            Jep... binnenkort volgt hier meer.
           </p>
         </div>
         <div class="page-content__spacer"></div>

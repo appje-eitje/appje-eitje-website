@@ -1,13 +1,12 @@
 <template>
-  <div class="m-page">
-    <header class="m-page__header">
+  <div>
+    <header>
       <PageHeader />
     </header>
-    <main class="m-page__main">
+    <main>
       <slot />
-      <!-- <SiteFooter /> -->
     </main>
-    <!-- <footer class="m-page__footer">
+    <!-- <footer>
       <PageFooter />
     </footer> -->
   </div>
