@@ -21,48 +21,49 @@ useHead({
     lang: route.meta.lang ? route.meta.lang : 'nl',
   },
   title: route.meta.title ? `Appje-Eitje - ${route.meta.title}` : 'Appje-Eitje',
+  script: [
+    {
+      children: 'var _paq = window._paq = window._paq || []; /* tracker methods like "setCustomDimension" should be called before "trackPageView" */ _paq.push([\'trackPageView\']); _paq.push([\'enableLinkTracking\']); (function() { var u="//stats.ikbenmelle-en-co.nl/"; _paq.push([\'setTrackerUrl\', u+\'matomo.php\']); _paq.push([\'setSiteId\', \'1\']); var d=document, g=d.createElement(\'script\'), s=d.getElementsByTagName(\'script\')[0]; g.async=true; g.src=u+\'matomo.js\'; s.parentNode.insertBefore(g,s); })(); '
+    }
+  ],
   link: [
     {
       rel: 'canonical',
-      href: route.meta.canonical ? route.meta.canonical : 'https://emzadi.nl' + route.path,
+      href: route.meta.canonical ? route.meta.canonical : 'https://appje-eitje.nl' + route.path,
     },
   ],
   meta: [
     {
       name: 'title',
-      content: route.meta.title ? `Emzadi - ${route.meta.title}` : 'Emzadi - De mooiste uitvaartvideo',
+      content: route.meta.title ? `Appje Eitje - ${route.meta.title}` : 'Appje Eitje',
     },
     {
       name: 'description',
-      content: route.meta.description ? route.meta.description : 'Maak zelf een persoonlijke herinnering bij de uitvaart van uw dierbare',
+      content: route.meta.description ? route.meta.description : 'Appje Eitje',
     },
     {
       name: 'theme-color',
-      content: '#FEF5E9',
+      content: '#A4E4AE',
     },
     {
       property: 'og:title',
-      content: route.meta.title ? `Emzadi - ${route.meta.title}` : 'Emzadi - De mooiste uitvaartvideo',
+      content: route.meta.title ? `Appje Eitje - ${route.meta.title}` : 'Appje Eitje',
     },
     {
       property: 'og:description',
-      content: route.meta.description ? route.meta.description : 'Maak zelf een persoonlijke herinnering bij de uitvaart van uw dierbare',
+      content: route.meta.description ? route.meta.description : 'Appje Eitje',
     },
     {
       property: 'og:image',
       content: route.meta.image ? route.meta.image : '',
     },
     {
-      property: 'og:image:alt',
-      content: route.meta.imageAlt ? route.meta.imageAlt : 'Een preview van een uitvaartvideo',
-    },
-    {
       property: 'og:url',
-      content: 'https://emzadi.nl',
+      content: 'https://appje-eitje.nl',
     },
     {
       property: 'og:site_name',
-      content: 'Emzadi',
+      content: 'Appje Eitje',
     },
     {
       property: 'og:locale',
@@ -78,19 +79,15 @@ useHead({
     },
     {
       property: 'twitter:title',
-      content: route.meta.title ? `Emzadi - ${route.meta.title}` : 'Emzadi - De mooiste uitvaartvideo',
+      content: route.meta.title ? `Appje Eitje - ${route.meta.title}` : 'Appje Eitje',
     },
     {
       property: 'twitter:description',
-      content: route.meta.description ? `Emzadi - ${route.meta.description}` : 'Maak zelf een persoonlijke herinnering bij de uitvaart van uw dierbare',
+      content: route.meta.description ? `Appje Eitje - ${route.meta.description}` : 'Appje Eitje',
     },
     {
       property: 'twitter:image',
       content: route.meta.image ? route.meta.image : '',
-    },
-    {
-      property: 'twitter:image:alt',
-      content: route.meta.imageAlt ? route.meta.imageAlt : 'Een preview van een uitvaartvideo',
     },
   ],
 })
