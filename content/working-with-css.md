@@ -8,18 +8,24 @@ Nesting is allowed for two levels and only for modifiers like hover states and p
 
 ### Use of `&`
 The Ampersand symbol `&`  can only be used in these cases:
-- Nesting classes on the same element:
+- Pseudo classes
 ```css
 .class {
-  &.another-class {
+  &:hover {
   }
 }
 ```
-
-- Pseudo classes
+- Modifiers
 ```css
-.class{
-  :hover {
+.class {
+  &.-success {
+   }
+}
+```
+- Although not preferred, nesting classes on the same element:
+```css
+.class {
+  &.another-class {
   }
 }
 ```
@@ -30,7 +36,8 @@ The Ampersand symbol `&`  can only be used in these cases:
 We're using [BEM](https://getbem.com/) in most cases, but limited to mostly one element and/or modifier.
 
 #### Modifiers
-Modifiers like `success` must be used with an alternative use of BEM. Instead of `.classname--success` we use one hyphen and nested like `&.-success`.
+Modifiers like `success` must be used with an alternative use of BEM. 
+Instead of `.classname--success` we use one hyphen and nested like `&.-success`.
 Two hyphens are not allowed at the start of class name.
 
 ### Semantics
