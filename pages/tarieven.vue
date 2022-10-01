@@ -53,14 +53,14 @@
         <p>
           Wij helpen je om het (ontwikkel)werk in zinvolle delen op te splitsen en zorgen zo samen voor een backlog.
           Als alles duidelijk is, kunnen we actief aan de slag!
-          Periodiek plannen we een stand-up en/of refinement om zowel de backlog als het Scrum board bij te werken.
+          Periodiek plannen we een stand-up en/of refinement om zowel de backlog als het board bij te werken.
           Zo kunnen we elke sprint iets opleveren met behulp van CI / CD tooling.
         </p>
         <h3>
           Altijd op de hoogte
         </h3>
         <p>
-          Via het gezamenlijke Scrum board en backlog weet je altijd direct wat de status is van de werkzaamheden of features.
+          Via het backlog en board weet je altijd direct wat de status is van de werkzaamheden of features.
           Zo hoef je nooit meer te bellen drie dagen voor een deadline. Het mag natuurlijk wel ;-)
         </p>
         <h3>
@@ -70,7 +70,7 @@
           Geen verrassingen meer.
           We werken op nacalculatie.
           Gemaakte uren kun je via onze tools volgen wanneer je wilt.
-          Aan het einde van de maand verzamelen we dit en na akkoord van de uren ontvang je de factuur.
+          Aan het einde van de maand controleren we dit en na akkoord van de uren ontvang je de factuur.
         </p>
         <h3>
           De beste kandidaat
@@ -78,7 +78,7 @@
         <p>
           We doen geen detachering.
           Je krijgt bij Appje Eitje altijd de beste kandidaat.
-          Binnen ons team kijken we per item op de backlog wat het beste past.
+          Binnen ons team kijken we per item op de backlog wie het beste past.
           Zo werken we zo efficiënt als mogelijk.
         </p>
         <div class="page-content__spacer-smaller"></div>
