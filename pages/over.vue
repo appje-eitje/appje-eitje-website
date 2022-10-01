@@ -60,7 +60,9 @@
 </template>
 
 <script setup>
-useHead({ title: 'Over' })
+definePageMeta({
+  title: 'Over'
+})
 
 const { data, refresh } = await useAsyncData('homepage', () => {
   return queryContent('/team').find()

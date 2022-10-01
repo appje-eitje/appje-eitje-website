@@ -5,10 +5,10 @@
         <div class="page-content__spacer-large"></div>
         <div class="page-content__lead">
           <p>
-            Kunnen wij het leven van jou of jouw team misschien makkelijker maken?
+            Kunnen wij het leven van jou of je team makkelijker maken?
           </p>
           <p>
-            Neem contact op voor een kennismaking.
+            Laten we kennis maken!
           </p>
           <!-- <p>
             Kun je dit gebruiken? <NuxtLink to="/tarieven">Bekijk onze tarieven</NuxtLink>
@@ -89,7 +89,9 @@
 </template>
 
 <script setup>
-useHead({ title: 'Contact' })
+definePageMeta({
+  title: 'Contact'
+})
 
 const copiedStr = ref('')
 const copy = (str) => {

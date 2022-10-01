@@ -45,38 +45,38 @@
           Appje Eitje Werkwijze
         </h2>
         <h3>
+          Aan de slag als alles duidelijk is
+        </h3>
+        <p>
+          Wij helpen je om het (ontwikkel)werk in zinvolle delen op te splitsen en zorgen zo samen voor een backlog.
+          Als alles duidelijk is, kunnen we actief aan de slag!
+          Periodiek plannen we een stand-up en/of refinement om zowel de backlog als het Scrum board bij te werken.
+          Zo kunnen we elke sprint iets opleveren met behulp van CI / CD tooling.
+        </p>
+        <h3>
+          Altijd op de hoogte
+        </h3>
+        <p>
+          Via het gezamenlijke Scrum board en backlog weet je altijd direct wat de status is van de werkzaamheden of features.
+          Zo hoef je nooit meer te bellen drie dagen voor een deadline. Het mag natuurlijk wel ;-)
+        </p>
+        <h3>
           Geen factuurstress
         </h3>
         <p>
           Geen verrassingen meer.
           We werken op nacalculatie.
-          Gemaakte uren kun je volgen per maand, via onze tools.
-          Aan het einde van de maand corrigeren we dit en factureren na akkoord.
+          Gemaakte uren kun je via onze tools volgen wanneer je wilt.
+          Aan het einde van de maand verzamelen we dit en na akkoord van de uren ontvang je de factuur.
         </p>
         <h3>
-          Altijd de laatste status
-        </h3>
-        <p>
-          Via een heldere backlog i.c.m. actief board weet je altijd direct wat de status is.
-          Zo hoef je nooit meer te bellen drie dagen voor een deadline, maar het mag natuurlijk wel ;-)
-        </p>
-        <h3>
-          Aan de slag als alles duidelijk is
-        </h3>
-        <p>
-          Als opdrachtgever helpen we je om het ontwikkelwerk (backlog) in zinvolle delen op te splitsen,
-          en pas als alles duidelijk is zetten we dit op de To Do.
-          Wekelijks of twee-wekelijks plannen we een stand-up om dit bij te werken.
-          Zo kunnen we bijna elke week wat nieuws kunnen leveren m.b.v. CI / CD tooling.
-        </p>
-        <h3>
-          Beste kandidaat
+          De beste kandidaat
         </h3>
         <p>
           We doen geen detachering.
-          Je krijgt altijd de beste kandidaat.
+          Je krijgt bij Appje Eitje altijd de beste kandidaat.
           Binnen ons team kijken we per item op de backlog wat het beste past.
-          Zo werken we altijd zo efficiënt als mogelijk.
+          Zo werken we zo efficiënt als mogelijk.
         </p>
         <div class="page-content__spacer-smaller"></div>
         <p>
@@ -90,6 +90,6 @@
 
 <script setup lang="ts">
 definePageMeta({
-  title: 'Tarief'
+  title: 'Tarieven'
 })
 </script>

@@ -3,17 +3,38 @@
     <div class="page-center">
       <PageContent>
         <div class="page-content__spacer-large"></div>
+        <h2 class="heading-page">Appje Eitje Showcase</h2>
         <div class="page-content__lead">
           <p>
-            Uitgelicht
-          </p>
-          <p>
-            Jep... binnenkort volgt hier meer.
+            Niet al ons werk kunnen wij direct tonen, de onderstaande showcases zijn een kleine greep uit het werk wat wij doen.
           </p>
         </div>
         <div class="page-content__spacer"></div>
       </PageContent>
       <ul class="cards-work">
+        <li class="cards-work__item ___responsive-tablet-portrait-50">
+          <a href="https://ciz.nl/jaaroverzicht-2021/" class="card-work">
+            <div class="card-work__preview">
+              <img
+                class="card-work__preview__img"
+                src="~/assets/projects/ciz/ciz-jaarverslag-2021-one-page.jpg"
+                alt="Screenshot van jaaroverzicht 2021 van CIZ"
+              >
+            </div>
+            <div class="card-work__text">
+              <h3 class="card-work__text__title">
+                CIZ Jaaroverzicht 2021
+              </h3>
+              <p class="card-work__text__lead">
+                Appje Eitje heeft in opdracht van Osage het Jaaroverzicht 2021 voor CIZ opgeleverd.
+                Een interessante, uitdagende klus voor onze front-end developers om de vele illustraties te animeren.
+              </p>
+              <p class="card-work__text__more">
+                <span class="m-content-link">Ga naar ciz.nl/jaaroverzicht-2021</span>
+              </p>
+            </div>
+          </a>
+        </li>
         <li class="cards-work__item ___responsive-tablet-portrait-50">
           <a href="https://coronamelder.nl" class="card-work">
             <div class="card-work__preview">
@@ -69,11 +90,7 @@
 </template>
 
 <script setup lang="ts">
-useHead({ title: 'Wat we doen' })
-
 definePageMeta({
-  // description: 'Maak zelf een persoonlijke herinnering bij de uitvaart van uw dierbare',
-  // TODO: image: 'http://placekitten.com/200/300',
-  // TODO: imageAlt: 'Placekitten',
+  title: 'Dit doen we'
 })
 </script>
