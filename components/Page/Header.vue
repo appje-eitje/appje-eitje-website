@@ -36,10 +36,10 @@
             </li> -->
             <li class="header-nav-items__item">
               <nuxt-link
-                to="/over"
+                to="/team"
                 class="nav-link"
               >
-                Over
+                Team
               </nuxt-link>
             </li>
             <li class="header-nav-items__item ___space-after">
@@ -104,7 +104,7 @@
             </li>
             <li class="header-nav-items__item">
               <nuxt-link
-                to="/over"
+                to="/team"
                 class="nav-link"
               >
                 Over

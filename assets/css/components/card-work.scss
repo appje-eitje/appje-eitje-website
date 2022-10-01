@@ -23,6 +23,7 @@
   display: flex;
   flex-wrap: wrap;
   border: 2px solid #eee;
+  border-radius: 5px;
   padding: 2px;
   text-decoration: none;
   color: #000;
@@ -33,6 +34,8 @@
   flex: 1 1;
   min-width: 16.2rem;
   width: 100%;
+  border-radius: 3px;
+  overflow: hidden;
 }
 
 .card-work__preview__img {

@@ -13,7 +13,7 @@
             <small>Als het géén eitje is – Moeten eerst todo uitwerken en inplannen</small>
           </p>
           <p>
-            <span class="site-label-status">Beschikbaar per november</span> <NuxtLink to="/contact">Neem contact op</NuxtLink><br>
+            <span class="site-label-status">Beschikbaar per november</span> <NuxtLink to="/contact">Neem contact op</NuxtLink> of <NuxtLink to="/voorwaarden">bekijk de voorwaarden</NuxtLink><br>
             <small class="label-info">Tarieven ter indicatie. Informeer naar voorwaarden en mogelijkheden voor korting</small>
           </p>
         </div>
@@ -30,6 +30,9 @@
             </li>
             <li>
               6% korting bij geen haast
+            </li>
+            <li>
+              2% korting op volgende factuur indien vorige binnen 5 werkdagen betaald wordt
             </li>
             <li>
               100% opslag bij buitengewone inzet, als 'whatever it takes geldt'. Altijd in overleg
@@ -80,7 +83,7 @@
         </p>
         <div class="page-content__spacer-smaller"></div>
         <p>
-          <NuxtLink to="/over">Maak kennis met het team</NuxtLink>
+          <NuxtLink to="/team">Maak kennis met het team</NuxtLink>
         </p>
         <div class="page-content__spacer-large"></div>
       </PageContent>
