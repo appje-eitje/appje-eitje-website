@@ -5,22 +5,22 @@
         <div class="page-content__spacer-large"></div>
         <div class="page-content__lead">
           <p>
-            € 62,00 ex. btw Developer support tarief<br/>
-            <small>Als het eitje is – We kunnen zo aan de slag met de todo</small><br>
+            € 62,00 excl. btw Developer support tarief<br/>
+            <small>Als het een eitje is – Onze developers gaan meteen aan de slag</small><br>
           </p>
           <p>
-            € 117,00 ex. btw Consultancy tarief<br/>
-            <small>Als het géén eitje is – Moeten eerst todo uitwerken en inplannen</small>
+            € 117,00 excl. btw Consultancy tarief<br/>
+            <small>Als het géén eitje is – Voor senior/lead invulling, architecturele beslissingen of (development) advies</small>
           </p>
           <p>
-            <span class="site-label-status">Beschikbaar per november</span> <NuxtLink to="/contact">Neem contact op</NuxtLink><br>
+            <span class="site-label-status">Beschikbaar per november</span> <NuxtLink to="/contact">Neem contact op</NuxtLink> of <NuxtLink to="/voorwaarden">bekijk de voorwaarden</NuxtLink><br>
             <small class="label-info">Tarieven ter indicatie. Informeer naar voorwaarden en mogelijkheden voor korting</small>
           </p>
         </div>
         <div class="page-content__spacer-smaller"></div>
         <details>
           <summary>Bepaal het tarief zelf</summary>
-          <small>1e maand € 55,00 ex. btw</small>
+          <small>1e maand € 55,00 excl. btw</small>
           <ul>
             <li>
               0.5% korting per easter egg die je vindt op de website bij aanvang (max 3%)
@@ -32,12 +32,15 @@
               6% korting bij geen haast
             </li>
             <li>
+              2% korting op volgende factuur indien vorige binnen 5 werkdagen betaald wordt
+            </li>
+            <li>
               100% opslag bij buitengewone inzet, als 'whatever it takes geldt'. Altijd in overleg
               Desnoods komen we je ophalen bij Schiphol en zetten we je thuis weer af.
             </li>
           </ul>
           <p>
-            Pas op: aan de tarieven kunnen geen rechten ontleend worden, voordat we aan de slag gaan maken we definitieve afspraken.
+            Pas op: aan de tarieven kunnen geen rechten ontleend worden, voordat we aan de slag gaan, maken we definitieve afspraken.
           </p>
         </details>
         <div class="page-content__spacer"></div>
@@ -80,7 +83,7 @@
         </p>
         <div class="page-content__spacer-smaller"></div>
         <p>
-          <NuxtLink to="/over">Maak kennis met het team</NuxtLink>
+          <NuxtLink to="/team">Maak kennis met het team</NuxtLink>
         </p>
         <div class="page-content__spacer-large"></div>
       </PageContent>

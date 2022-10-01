@@ -1,7 +1,6 @@
 <template>
   <div>
     <div class="page-center">
-      <!-- <SiteHero /> -->
       <PageContent>
         <div class="page-content__spacer-large"></div>
         <div class="page-content__lead">
@@ -13,7 +12,7 @@
             Samen werken we aan de beste website, software of app voor jou, je team en je klant.
           </p>
           <p>
-            Kosteneffectief. Betrokken. Wij zijn jouw ei van Columbus.*
+            Betrokken. Bekwaam. Wij zijn jouw ei van Columbus.*
           </p>
           <p>
             Wat heb je nodig? <NuxtLink to="/contact">Vertel het ons</NuxtLink>

@@ -4,11 +4,8 @@
       <PageContent>
         <div class="page-content__spacer-large"></div>
       </PageContent>
-      <!-- <ContentDoc path="/about" /> -->
       <ul class="team">
         <li v-for="person in data" :key="person._path" class="team__person">
-          <!-- <ContentRenderer :value="lol" /> -->
-
           <div class="card-person">
             <span class="card-person__image">
               <span class="card-person__image__overflow">
@@ -27,6 +24,7 @@
             <span v-if="person.quote['nl']" class="card-person__quote">
               “{{ person.quote['nl'] }}”
             </span>
+            <NuxtLink :to="person._path">meer</NuxtLink>
           </div>
         </li>
       </ul>
@@ -61,7 +59,7 @@
 
 <script setup>
 definePageMeta({
-  title: 'Over'
+  title: 'Team'
 })
 
 const { data, refresh } = await useAsyncData('homepage', () => {

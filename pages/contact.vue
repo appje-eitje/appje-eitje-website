@@ -81,8 +81,9 @@
         <p>KvK 71965858</p>
         <div class="page-content__spacer"></div>
         <p>
-          Liever iemand direct aanspreken? <NuxtLink to="/over">Kijk op de over-pagina</NuxtLink>
+          Liever iemand direct aanspreken? <NuxtLink to="/team">Ga naar het team</NuxtLink>
         </p>
+        <div class="page-content__spacer-large"></div>
       </PageContent>
     </div>
   </div>
