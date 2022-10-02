@@ -9,15 +9,15 @@
         <div class="page-content__spacer-smaller"></div>
         <div class="page-content__lead">
           <p>
-            € 72,00 ex. btw Developer support tarief<br/>
+            € 72,00 excl. btw Developer support tarief<br/>
             <small>Als het een eitje is – Onze developers kunnen meteen aan de slag</small><br>
           </p>
           <p>
-            € 94,00 ex. btw Developer Senior / Lead tarief<br/>
+            € 94,00 excl. btw Developer Senior / Lead tarief<br/>
             <small>Als het géén eitje is – Voor als er uitgebreide afstemming benodigd is</small>
           </p>
           <p>
-            € 117,00 ex. btw Consultancy tarief<br/>
+            € 117,00 excl. btw Consultancy tarief<br/>
             <small>Liever vandaag eieren dan morgen kuikens – Architectuur of (development) advies</small>
           </p>
         </div>

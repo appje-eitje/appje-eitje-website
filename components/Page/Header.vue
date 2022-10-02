@@ -1,20 +1,24 @@
 <template>
   <div>
     <header class="page-header">
-      <!-- TODO: Only show for screen-readers -->
       <div class="page-header__brand">
         <h1 class="page-header__brand__text">
           <nuxt-link to="/" class="label-ae">
-            <AtomLogo class="label-ae__logo"/>
+            <AtomLogo class="label-ae__logo" aria-hidden="true"/>
             <span class="label-ae__name">Appje-Eitje</span>
             <span class="label-ae__service"></span>
           </nuxt-link>
         </h1>
-        <!-- <p class="page-header__brand__slogan">
-          <nuxt-link to="/en/happy-people-happy-code" class="label-ibmco-slogan">Happy people. Happy code.</nuxt-link>
-        </p> -->
         <nav class="header-nav">
           <ul class="header-nav-items">
+            <li class="header-nav-items__item">
+              <nuxt-link
+                to="/"
+                class="nav-link ___highlight-exact-active"
+              >
+                Expertises
+              </nuxt-link>
+            </li>
             <li class="header-nav-items__item">
               <nuxt-link
                 to="/dit-doen-we"
@@ -40,6 +44,7 @@
                 class="nav-link"
               >
                 Team
+                <span class="nav-link__bubble">2</span>
               </nuxt-link>
             </li>
             <li class="header-nav-items__item ___space-after">
