@@ -42,11 +42,11 @@
         <p>
           <NuxtLink to="/dit-doen-we">Dit doen we met onze expertises</NuxtLink>
         </p>
-        <div class="page-content__spacer"></div>
+        <!-- <div class="page-content__spacer"></div>
         <p>
           * Het ei van Columbus.<br>
           Simpele oplossing voor een moeilijke opgave
-        </p>
+        </p> -->
         <div class="page-content__spacer"></div>
       </PageContent>
     </div>
