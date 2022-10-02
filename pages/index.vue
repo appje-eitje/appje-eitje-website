@@ -22,21 +22,49 @@
           Front-end
         </h3>
         <p>
+          <small>Klant (of gebruiker) reis tot in de puntjes uitwerken</small>
+        </p>
+        <p>
           HTML, CSS, JavaScript, Vue, Angular, Svelte
         </p>
-        <h3>Back-end</h3>
-        <p>REST API, GraphQL, Node.JS, MySQL, PHP</p>
+        <p>
+          Design Tokens
+        </p>
+        <h3>
+          Back-end
+        </h3>
+        <p>
+          <small>Als het nodig is, staan we ons mannetje </small>
+        </p>
+        <p>
+          REST API, Swagger, GraphQL, Node.JS, Postgres, Java, .NET
+        </p>
+        <h3>
+          Full-stack
+        </h3>
+        <p>
+          <small>Maximale synergy tussen front-end en achterliggende systemen</small>
+        </p>
+        <p>
+          Nuxt, Next.js
+        </p>
         <h3>
           Toegankelijkheid
         </h3>
         <p>
-          WCAG
+          <small>Als je het publiek maximaal wilt bereiken</small>
+        </p>
+        <p>
+          WCAG, Accessibility Audit, Accessible Web Apps
         </p>
         <h3>
           Cybersecurity
         </h3>
         <p>
-          Voorbereiden of verwerken van een security audit of pentest
+          <small>Spannende tijd voor je project goed voorbereiden, begeleiden en afronden</small>
+        </p>
+        <p>
+          OWASP 10, Pentest, Security Audit, AVG, Privacy
         </p>
         <div class="page-content__spacer-smaller"></div>
         <p>
