@@ -24,12 +24,28 @@
             <span v-if="person.quote['nl']" class="card-person__quote">
               “{{ person.quote['nl'] }}”
             </span>
-            <NuxtLink :to="person._path">meer</NuxtLink>
+            <!-- <NuxtLink :to="person._path">meer</NuxtLink> -->
           </div>
         </li>
       </ul>
       <PageContent>
-        <div class="page-content__spacer-large"></div>
+        <div class="page-content__spacer"></div>
+        <h2 class="heading-page">
+          Vacatures
+        </h2>
+        <p>
+          Momenteel hebben we twee vacatures:
+        </p>
+        <ul>
+          <li>designer die uitdagende UI / UX scenario's interssant vindt,</li>
+          <li>developer die graag wil starten als trainee of junior.</li>
+        </ul>
+        <p>
+          Lijkt dit je wat? Neem <NuxtLink to="/contact">contact</NuxtLink> op
+        </p>
+      </PageContent>
+      <PageContent>
+        <div class="page-content__spacer"></div>
         <h2 class="heading-page">
           Achtergrond
         </h2>
@@ -38,8 +54,8 @@
             Na verschillende teams te hebben opgezet en geleid,
             ontstond bij Melle de wens om een eigen team te kunnen (op)leiden.
             Het idee voor Ik ben Melle <strong>& Co.</strong> was ontstaan,
-            wat later zo overgaan in Appje Eitje.
-            Niet alles draait meer om Melle, en wat een opluchting dat wel niet is.
+              wat later zou overgaan in Appje Eitje.
+            Niet alles draait om Melle, en wat een opluchting dat wel niet is.
           </p>
           <p>
             Vandaag de dag werken we met verscheidene teams van onze klanten
@@ -63,7 +79,7 @@ definePageMeta({
 })
 
 const { data, refresh } = await useAsyncData('homepage', () => {
-  return queryContent('/team').find()
+  return queryContent('/team').sort({ index: 1 }).find()
 })
 </script>
 

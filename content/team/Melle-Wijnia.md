@@ -6,7 +6,7 @@ image: /images/team/m.png
 nameLabel: 
   nl: 
 job:
-  nl: Full-stack consultant
+  nl: Founder & Full-stack consultant
 quote:
   nl: Aan alles gedacht.
 ---

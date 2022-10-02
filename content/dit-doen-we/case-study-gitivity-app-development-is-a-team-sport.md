@@ -2,7 +2,7 @@
 title: Gitivity App
 type: 
 image: 
-tldr: 
+tldr: Binnenkort volgt meer!
 readMore: false
 authors:
   - Melle-Wijnia

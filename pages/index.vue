@@ -1,18 +1,17 @@
 <template>
   <div>
     <div class="page-center">
-      <!-- <SiteHero /> -->
       <PageContent>
         <div class="page-content__spacer-large"></div>
         <div class="page-content__lead">
           <p>
-            Wij vullen jouw team aan om de user experience excellent te maken.
+            Appje Eitje ontwikkelt doordachte websites, apps en toepassingen.
           </p>
           <p>
-            Kosteneffectief. Betrokken. Het ei van Columbus.*
+            We doen dit voor jou of samen met jouw team.
           </p>
           <p>
-            Kun je dit gebruiken? <NuxtLink to="/tarieven">Bekijk onze tarieven</NuxtLink>
+            Wat heb je nodig? <NuxtLink to="/contact">Vertel het ons</NuxtLink>
           </p>
         </div>
         <div class="page-content__spacer"></div>
@@ -20,66 +19,62 @@
           Onze expertises
         </h2>
         <h3>
-          Full stack
-        </h3>
-        <p>
-          Synergy door front-end en back-end integratie.
-        </p>
-        <h3>
           Front-end
         </h3>
         <p>
-          Design tokens
+          <small>Klant (of gebruiker) reis tot in de puntjes uitwerken</small>
+        </p>
+        <p>
+          HTML, CSS, JavaScript, Vue, Angular, Svelte
+        </p>
+        <p>
+          Design Tokens
         </p>
         <h3>
-          Toegankelijk
+          Back-end
         </h3>
         <p>
-
+          <small>Als het nodig is, staan we ons mannetje </small>
+        </p>
+        <p>
+          REST API, Swagger, GraphQL, Node.JS, Postgres, Java, .NET
+        </p>
+        <h3>
+          Full-stack
+        </h3>
+        <p>
+          <small>Maximale synergy tussen front-end en achterliggende systemen</small>
+        </p>
+        <p>
+          Nuxt, Next.js
+        </p>
+        <h3>
+          Toegankelijkheid
+        </h3>
+        <p>
+          <small>Als je het publiek maximaal wilt bereiken</small>
+        </p>
+        <p>
+          WCAG, Accessibility Audit, Accessible Web Apps
         </p>
         <h3>
           Cybersecurity
         </h3>
         <p>
-
+          <small>Spannende tijd voor je project goed voorbereiden, begeleiden en afronden</small>
         </p>
-        <h3>
-          Back-end
-        </h3>
-        <ul>
-          <li>
-            REST API
-          </li>
-          <li>
-            GraphQL
-          </li>
-        </ul>
-        <h4>
-          Technieken
-        </h4>
-        <ul>
-          <li>
-            Java
-          </li>
-          <li>
-            SQL
-          </li>
-          <li>
-            Postgres
-          </li>
-        </ul>
-        <h3>
-          UX / UI
-        </h3>
+        <p>
+          OWASP 10, Pentest, Security Audit, AVG, Privacy
+        </p>
         <div class="page-content__spacer-smaller"></div>
         <p>
           <NuxtLink to="/dit-doen-we">Dit doen we met onze expertises</NuxtLink>
         </p>
-        <div class="page-content__spacer"></div>
+        <!-- <div class="page-content__spacer"></div>
         <p>
           * Het ei van Columbus.<br>
           Simpele oplossing voor een moeilijke opgave
-        </p>
+        </p> -->
         <div class="page-content__spacer"></div>
       </PageContent>
     </div>
@@ -88,8 +83,6 @@
 
 <script setup lang="ts">
 definePageMeta({
-  // description: 'Maak zelf een persoonlijke herinnering bij de uitvaart van uw dierbare',
-  // TODO: image: 'http://placekitten.com/200/300',
-  // TODO: imageAlt: 'Placekitten',
+  title: 'Home'
 })
 </script>

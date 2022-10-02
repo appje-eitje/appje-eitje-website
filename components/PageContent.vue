@@ -32,6 +32,15 @@
     margin-top: 1rem;
   }
 
+  ul {
+    margin-top: 1rem;
+    list-style: disc;
+
+    li {
+      margin-top: 0.4rem;
+    }
+  }
+
   h3 {
     margin-top: 2rem;
   }
