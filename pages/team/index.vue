@@ -24,7 +24,7 @@
             <span v-if="person.quote['nl']" class="card-person__quote">
               “{{ person.quote['nl'] }}”
             </span>
-            <NuxtLink :to="person._path">meer</NuxtLink>
+            <!-- <NuxtLink :to="person._path">meer</NuxtLink> -->
           </div>
         </li>
       </ul>

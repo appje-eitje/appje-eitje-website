@@ -2,45 +2,59 @@
   <div>
     <div class="page-center">
       <PageContent>
-        <div class="page-content__spacer-large"></div>
+        <div class="page-content__spacer"></div>
+        <p>
+          <span class="site-label-status">Beschikbaar per november</span>
+        </p>
+        <div class="page-content__spacer-smaller"></div>
         <div class="page-content__lead">
           <p>
-            € 62,00 excl. btw Developer support tarief<br/>
-            <small>Als het een eitje is – Onze developers gaan meteen aan de slag</small><br>
+            € 72,00 ex. btw Developer support tarief<br/>
+            <small>Als het een eitje is – Onze developers kunnen meteen aan de slag</small><br>
           </p>
           <p>
-            € 117,00 excl. btw Consultancy tarief<br/>
-            <small>Als het géén eitje is – Voor senior/lead invulling, architecturele beslissingen of (development) advies</small>
+            € 94,00 ex. btw Developer Senior / Lead tarief<br/>
+            <small>Als het géén eitje is – Voor senior/lead invulling</small>
           </p>
           <p>
-            <span class="site-label-status">Beschikbaar per november</span> <NuxtLink to="/contact">Neem contact op</NuxtLink> of <NuxtLink to="/voorwaarden">bekijk de voorwaarden</NuxtLink><br>
-            <small class="label-info">Tarieven ter indicatie. Informeer naar voorwaarden en mogelijkheden voor korting</small>
+            € 117,00 ex. btw Consultancy tarief<br/>
+            <small>Liever vandaag eieren dan morgen kuikens – Architectuur of (development) advies</small>
+          </p>
+        </div>
+        <div class="page-content__spacer-smaller"></div>
+        <div class="page-content__lead">
+          <p>
+            <NuxtLink to="/contact">Neem contact op</NuxtLink>
+            <!-- of <NuxtLink to="/voorwaarden">bekijk de voorwaarden</NuxtLink> -->
+            <br>
+            <small class="label-info">Tarieven ter indicatie. Informeer naar voorwaarden</small>
           </p>
         </div>
         <div class="page-content__spacer-smaller"></div>
         <details>
-          <summary>Bepaal het tarief zelf</summary>
-          <small>1e maand € 55,00 excl. btw</small>
+          <summary>Mogelijkheden voor korting*</summary>
           <ul>
             <li>
-              0.5% korting per easter egg die je vindt op de website bij aanvang (max 3%)
+              0.5% korting op volgende factuur per gevonden easter egg<br>
+              <small>Elke easter egg is eenmalig te gebruiken</small>
             </li>
             <li>
-              2% korting per jaar dat je klant bent (max. 6%)
+              10% korting op eerste factuur
             </li>
             <li>
-              6% korting bij geen haast
+              1% korting per jaar dat je klant bent (max. 10%)
             </li>
             <li>
-              2% korting op volgende factuur indien vorige binnen 5 werkdagen betaald wordt
+              2% korting op volgende factuur indien vorige factuur binnen 5 dagen betaald is
             </li>
             <li>
-              100% opslag bij buitengewone inzet, als 'whatever it takes geldt'. Altijd in overleg
+              75% opslag bij buitengewone 'whatever it takes geldt' inzet.
+              Altijd in overleg/
               Desnoods komen we je ophalen bij Schiphol en zetten we je thuis weer af.
             </li>
           </ul>
           <p>
-            Pas op: aan de tarieven kunnen geen rechten ontleend worden, voordat we aan de slag gaan, maken we definitieve afspraken.
+            * Aan kortingen kunnen geen rechten ontleend worden.
           </p>
         </details>
         <div class="page-content__spacer"></div>
