@@ -5,14 +5,10 @@
         <div class="page-content__spacer-large"></div>
         <div class="page-content__lead">
           <p>
-            Developers gezocht? Eitje!
+            Appje Eitje ontwikkelt doordachte websites, apps en toepassingen.
           </p>
           <p>
-            Wie of wat je ook zoekt, wij vullen jouw team aan.
-            Samen werken we aan de beste website, software of app voor jou, je team en je klant.
-          </p>
-          <p>
-            Betrokken. Bekwaam. Wij zijn jouw ei van Columbus.*
+            We doen dit voor jou of samen met jouw team.
           </p>
           <p>
             Wat heb je nodig? <NuxtLink to="/contact">Vertel het ons</NuxtLink>
