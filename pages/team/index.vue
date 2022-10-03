@@ -37,11 +37,11 @@
           Momenteel hebben we twee vacatures:
         </p>
         <ul>
-          <li>designer die uitdagende UI / UX scenario's interssant vindt,</li>
+          <li>designer die uitdagende UI-/UX-scenario's interessant vindt,</li>
           <li>developer die graag wil starten als trainee of junior.</li>
         </ul>
         <p>
-          Lijkt dit je wat? Neem <NuxtLink to="/contact">contact</NuxtLink> op
+          Lijkt dit je wat? Neem <NuxtLink to="/contact">contact</NuxtLink> op.
         </p>
       </PageContent>
       <PageContent>

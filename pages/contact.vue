@@ -8,7 +8,7 @@
             Kunnen wij het leven van jou of je team makkelijker maken?
           </p>
           <p>
-            Laten we kennis maken!
+            Laten we kennismaken!
           </p>
           <!-- <p>
             Kun je dit gebruiken? <NuxtLink to="/tarieven">Bekijk onze tarieven</NuxtLink>
