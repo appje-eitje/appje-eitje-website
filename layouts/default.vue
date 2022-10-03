@@ -38,7 +38,7 @@ useHead({
     },
     {
       name: 'description',
-      content: route.meta.description ? route.meta.description : 'Appje Eitje',
+      content: route.meta.description ? route.meta.description : 'Appje Eitje ontwikkelt doordachte websites, apps en toepassingen. Voor jou of met jouw team.'
     },
     {
       name: 'theme-color',
@@ -50,7 +50,7 @@ useHead({
     },
     {
       property: 'og:description',
-      content: route.meta.description ? route.meta.description : 'Appje Eitje',
+      content: route.meta.description ? route.meta.description : 'Appje Eitje ontwikkelt doordachte websites, apps en toepassingen. Voor jou of met jouw team.',
     },
     {
       property: 'og:image',
@@ -82,7 +82,7 @@ useHead({
     },
     {
       property: 'twitter:description',
-      content: route.meta.description ? `Appje Eitje - ${route.meta.description}` : 'Appje Eitje',
+      content: route.meta.description ? `Appje Eitje - ${route.meta.description}` : 'Appje Eitje ontwikkelt doordachte websites, apps en toepassingen. Voor jou of met jouw team.',
     },
     {
       property: 'twitter:image',
