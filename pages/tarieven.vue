@@ -67,7 +67,7 @@
           Wij helpen je om het (ontwikkel)werk in zinvolle delen op te splitsen en zorgen zo samen voor een backlog.
           Wanneer er geen vragen meer zijn, gaan we aan de slag!
           Periodiek plannen we een stand-up en/of refinement om zowel de backlog als het board bij te werken.
-          Zo kunnen we elke sprint iets opleveren met behulp van CI / CD tooling.
+          Zo kunnen we elke sprint iets opleveren met behulp van CI/CD-tooling.
         </p>
         <h3>
           Altijd op de hoogte
