@@ -53,6 +53,20 @@
     color: currentColor;
   }
 
+  .cta-link {
+    display: inline-flex;
+    align-items: baseline;
+
+    &::before {
+      content: '';
+      background-image: url("data:image/svg+xml,%3Csvg width='9' height='6' viewBox='0 0 9 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='5' y1='1' y2='1' stroke='%2300BF1F' stroke-width='2'/%3E%3Cpath d='M9 5L4 5' stroke='%2300BF1F' stroke-width='2'/%3E%3C/svg%3E");
+      width: 9px;
+      height: 6px;
+      margin-right: .25em;
+      align-self: center;
+    }
+  }
+
   .label-info {
     color: var(--color-grey-500);
   }

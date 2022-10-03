@@ -68,7 +68,7 @@
         </p>
         <div class="page-content__spacer-smaller"></div>
         <p>
-          <NuxtLink to="/dit-doen-we">Dit doen we met onze expertises</NuxtLink>
+          <NuxtLink to="/dit-doen-we" class="cta-link">Dit doen we met onze expertises</NuxtLink>
         </p>
         <!-- <div class="page-content__spacer"></div>
         <p>

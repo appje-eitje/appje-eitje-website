@@ -24,7 +24,7 @@
         <div class="page-content__spacer-smaller"></div>
         <div class="page-content__lead">
           <p>
-            <NuxtLink to="/contact">Neem contact op</NuxtLink>
+            <NuxtLink to="/contact" class="cta-link">Neem contact op</NuxtLink>
             <!-- of <NuxtLink to="/voorwaarden">bekijk de voorwaarden</NuxtLink> -->
             <br>
             <small class="label-info">Tarieven ter indicatie. Informeer naar voorwaarden.</small>
@@ -96,7 +96,7 @@
         </p>
         <div class="page-content__spacer-smaller"></div>
         <p>
-          <NuxtLink to="/team">Maak kennis met het team</NuxtLink>
+          <NuxtLink to="/team" class="cta-link">Maak kennis met het team</NuxtLink>
         </p>
         <div class="page-content__spacer-large"></div>
       </PageContent>

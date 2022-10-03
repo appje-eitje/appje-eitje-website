@@ -63,7 +63,7 @@
             Een nieuw tijdperk is aangebroken.
           </p>
           <p>
-            <NuxtLink to="/dit-doen-we">Bekijk wat we doen om er meer van te leren</NuxtLink>
+            <NuxtLink to="/dit-doen-we" class="cta-link">Bekijk wat we doen om er meer van te leren</NuxtLink>
           </p>
         </div>
         <div class="page-content__spacer"></div>

@@ -57,7 +57,7 @@
         </p> -->
         <div class="page-content__spacer-smaller"></div>
         <p>
-          <NuxtLink to="/team">Maak kennis met het team</NuxtLink>
+          <NuxtLink to="/team" class="cta-link">Maak kennis met het team</NuxtLink>
         </p>
         <div class="page-content__spacer-large"></div>
       </PageContent>
