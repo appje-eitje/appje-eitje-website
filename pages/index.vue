@@ -55,7 +55,7 @@
           <small>Als je het publiek maximaal wilt bereiken</small>
         </p>
         <p>
-          WCAG, Accessibility Audit, Accessible Web Apps
+          WCAG, Verwerking Accessibility Audit, Accessible Web Apps
         </p>
         <h3>
           Cybersecurity
@@ -64,7 +64,7 @@
           <small>Spannende tijd voor je project goed voorbereiden, begeleiden en afronden</small>
         </p>
         <p>
-          OWASP 10, Pentest, Security Audit, AVG, Privacy
+          OWASP 10, Verwerking Pentest, Verwerking Security Audit, AVG, Privacy
         </p>
         <div class="page-content__spacer-smaller"></div>
         <p>
