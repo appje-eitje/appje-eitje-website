@@ -163,6 +163,7 @@ const { data, refresh } = await useAsyncData('homepage', () => {
 
 .card-person__job {
   margin-top: 0.2rem;
+  margin-right: -14px;
   display: block;
   color: var(--color-grey-500);
   font-size: var(--font-size-small);

@@ -43,7 +43,7 @@
           Full-stack
         </h3>
         <p>
-          <small>Maximale synergy tussen front-end en achterliggende systemen</small>
+          <small>Maximale efficiëntie tussen front-end en achterliggende systemen</small>
         </p>
         <p>
           Nuxt, Next.js

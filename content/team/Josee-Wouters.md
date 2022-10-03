@@ -6,7 +6,7 @@ image: /images/team/jw.png
 nameLabel:
   nl: 
 job:
-  nl: Co-Founder & Lead Front-end developer
+  nl: Co-Founder & Front-end consultant
 quote:
   nl: Mooie dingen maken
 ---
