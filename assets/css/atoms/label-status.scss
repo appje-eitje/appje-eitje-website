@@ -1,0 +1,11 @@
+
+.site-label-status {
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  font-size: var(--font-size-small);
+  background: var(--color-brand-green-300);
+
+  &.___warning {
+    background: var(--color-brand-yellow-300);
+  }
+}

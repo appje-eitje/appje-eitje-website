@@ -1,73 +1,88 @@
 <template>
-  <main>
-    <div class="content">
-      <h1>Appje Eitje</h1>
-      <p>
-        {{ $t('what-we-do') }}
-      </p>
-      <p>
-        {{ $t('your-idea') }}
-      </p>
-      <a href="mailto:josee.wouters@ikbenmelle-en-co.nl">{{ $t('contact') }}</a>
+  <div>
+    <div class="page-center">
+      <PageContent>
+        <div class="page-content__spacer-large"></div>
+        <div class="page-content__lead">
+          <p>
+            Appje Eitje ontwikkelt doordachte websites, apps en toepassingen.
+          </p>
+          <p>
+            We doen dit voor jou of samen met jouw team.
+          </p>
+          <p>
+            Wat heb je nodig? <NuxtLink to="/contact">Vertel het ons</NuxtLink>
+          </p>
+        </div>
+        <div class="page-content__spacer"></div>
+        <h2 class="heading-page">
+          Onze expertises
+        </h2>
+        <h3>
+          Front-end
+        </h3>
+        <p>
+          <small>Klant (of gebruiker) reis tot in de puntjes uitwerken</small>
+        </p>
+        <p>
+          HTML, CSS, JavaScript, Vue, Angular, Svelte
+        </p>
+        <p>
+          Design Tokens
+        </p>
+        <h3>
+          Back-end
+        </h3>
+        <p>
+          <small>Als het nodig is, staan we ons mannetje </small>
+        </p>
+        <p>
+          REST API, Swagger, GraphQL, Node.JS, Postgres, Java, .NET
+        </p>
+        <h3>
+          Full-stack
+        </h3>
+        <p>
+          <small>Maximale efficiëntie tussen front-end en achterliggende systemen</small>
+        </p>
+        <p>
+          Nuxt, Next.js
+        </p>
+        <h3>
+          Toegankelijkheid
+        </h3>
+        <p>
+          <small>Als je het publiek maximaal wilt bereiken</small>
+        </p>
+        <p>
+          WCAG, Accessibility Audit, Accessible Web Apps
+        </p>
+        <h3>
+          Cybersecurity
+        </h3>
+        <p>
+          <small>Spannende tijd voor je project goed voorbereiden, begeleiden en afronden</small>
+        </p>
+        <p>
+          OWASP 10, Pentest, Security Audit, AVG, Privacy
+        </p>
+        <div class="page-content__spacer-smaller"></div>
+        <p>
+          <NuxtLink to="/dit-doen-we" class="cta-link">Dit doen we met onze expertises</NuxtLink>
+        </p>
+        <!-- <div class="page-content__spacer"></div>
+        <p>
+          * Het ei van Columbus.<br>
+          Simpele oplossing voor een moeilijke opgave
+        </p> -->
+        <div class="page-content__spacer"></div>
+      </PageContent>
     </div>
-    <PersonWithApp />
-  </main>
+  </div>
 </template>
 
-<script>
-import PersonWithApp from 'assets/PersonWithApp'
-
-export default {
-  name: 'IndexPage',
-  components: { PersonWithApp }
-}
+<script setup lang="ts">
+definePageMeta({
+  title: 'Home'
+})
 </script>
-
-<style>
-main {
-  background-color: white;
-  min-height: calc(100vh - 6rem);
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  padding: 3rem;
-  font-size: 1.4rem;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
-@media (min-width: 64em) {
-  main {
-    flex-wrap: nowrap;
-  }
-}
-
-.content {
-  max-width: 55ch;
-}
-
-h1 {
-  font-size: 3.5rem;
-  margin-bottom: .5em;
-}
-
-svg {
-  max-width: 100%;
-  height: 100%;
-}
-
-a {
-  display: inline-block;
-  background-color: var(--color-cta);
-  color: #fff;
-  text-decoration: none;
-  padding: 1em;
-  margin: 1.5em 0;
-  transition: all .25s ease-in-out;
-  border-radius: 0;
-}
-
-a:hover {
-  border-radius: 35px;
-}
-</style>

@@ -1,0 +1,193 @@
+@import "~/assets/css/variables.scss";
+
+.page-header {
+  padding-top: var(--page-section-margin-small);
+  padding-right: calc(var(--page-max-width--padding) - 1rem);
+  padding-bottom: calc(var(--page-section-margin-small) - 0.3rem);
+  padding-left: calc(var(--page-max-width--padding) - 1rem);
+
+  @media (min-width: $responsive-tablet-portrait) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.page-header__brand {
+  margin-bottom: 0.6rem;
+
+  @media (min-width: $responsive-tablet-portrait) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.page-header__brand__text {
+  margin: 0;
+  font-weight: 400;
+}
+
+.page-header__nav {
+  margin-bottom: 1rem;
+
+  @media (min-width: $responsive-tablet-portrait) {
+    margin-bottom: 0.6rem;
+  }
+}
+
+.header-nav {
+
+}
+
+.header-nav-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  @media(min-width: $responsive-tablet-portrait) {
+    &:first-child {
+      margin-left: -0.5rem;
+    }
+    &:last-child {
+      margin-right: -0.5rem;
+    }
+  }
+}
+
+.header-nav-items__spacer {
+  @media(max-width: $responsive-tablet-portrait) {
+    flex: 1 1 auto;
+    width: 100%;
+  }
+
+  @media (min-width: $responsive-tablet-portrait) {
+    flex: 1 1;
+  }
+}
+
+.header-nav-items__item {
+}
+
+// Nav link
+
+.nav-link {
+  display: block;
+  font-size: var(--font-size-small);
+  transition: 262ms ease-out;
+  // TODO --color: var(--color-brand-500);
+  --color: #000;
+  --background: #fff;
+  color: var(--color);
+  background: var(--background);
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 3px;
+
+  @media (max-width: $responsive-tablet-portrait) {
+    // --background: var(--color-brand-100);
+    margin-right: 0.4rem;
+    margin-top: 1rem;
+    border-radius: 0.4rem;
+    padding: 0.6rem 1rem;
+
+    &:hover {
+      --background: #eee;
+    }
+
+    &:focus,
+    &:not(.___highlight-exact-active).router-link-active,
+    &.___highlight-exact-active.router-link-exact-active {
+      --background: #eee;
+    }
+  }
+
+  @media (min-width: $responsive-tablet-portrait) {
+    // --color: var(--color-brand-500);
+    --background: #fff;
+    padding: 0.6rem 1rem;
+
+    &:hover {
+      --background: rgb(250, 250, 250);
+    }
+
+    &:focus,
+    &:not(.___highlight-exact-active).router-link-active,
+    &.___highlight-exact-active.router-link-exact-active {
+      --background: #eee;
+    }
+  }
+}
+
+.nav-link__bubble {
+  display: inline-block;
+  color: var(--background);
+  background: var(--color);
+  border-radius: 50%;
+  height: 1.8rem;
+  min-width: 1.8rem;
+  padding: 0 0.3rem;
+  font-weight: bold;
+  font-size: var(--font-size-smaller);
+  text-align: center;
+  transition: 262ms ease-out;
+}
+
+/* Logo */
+
+.label-ae {
+  --background: #fff;
+
+  display: inline-flex;
+  font-size: var(--font-size-small);
+  text-decoration: none;
+  align-items: center;
+  border-radius: 4px;
+  background: var(--background);
+  transition: 262ms ease-out;
+}
+
+a.label-ae {
+  padding: 0.6rem 1rem;
+}
+
+.label-ae__logo {
+  margin-right: 0.3rem;
+}
+
+.label-ae__name {
+  margin: 0 0.3rem 0 0;
+  color: #000;
+  font-size: var(--font-size-small);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.label-ae:hover .label-ea__logo {
+  text-decoration: underline;
+}
+
+.label-ae:hover .label-ea__name {
+  text-decoration: underline;
+}
+
+.label-ea__service {
+  display: inline-block;
+  color: var(--color-grey-600);
+  font-size: var(--font-size-small);
+}
+
+.label-ea-slogan {
+  display: inline-block;
+  color: var(--color-grey-600);
+  font-size: var(--font-size-smaller);
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  word-spacing: 0.1em;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
