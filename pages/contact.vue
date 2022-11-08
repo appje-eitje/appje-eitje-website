@@ -78,7 +78,7 @@
           Leuvensbroek 1019<br>
           6546 XA NIJMEGEN
         </p>
-        <p>KvK 71965858</p>
+        <p>KvK 75849844</p>
         <div class="page-content__spacer"></div>
         <p>
           Liever iemand direct aanspreken? <NuxtLink to="/team">Ga naar het team</NuxtLink>
