@@ -2,6 +2,13 @@
 
 @import "./reset.scss";
 
+html {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  font-family: 'Readex Pro', sans-serif;
+  cursor: default;
+}
+
 @import "./utils";
 
 @import "./atoms/label-status";
@@ -10,13 +17,6 @@
 @import "./components/card-work";
 
 @import "./todo";
-
-html {
-  scroll-behavior: smooth;
-  overflow-y: scroll;
-  font-family: 'Readex Pro', sans-serif;
-  cursor: default;
-}
 
 .heading-page {
   font-size: var(--font-size-larger);

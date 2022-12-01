@@ -10,5 +10,3 @@
 import '@fontsource/readex-pro/400.css'
 import '@fontsource/readex-pro/600.css'
 </script>
-
-<style src="~/assets/css/main.scss"></style>
