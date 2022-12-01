@@ -3,9 +3,6 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/content'
   ],
-  css: [
-    '~/assets/css/main.scss',
-  ],
   app: {
     head: {
       link: [
